@@ -1,195 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background-image: url("image/biruuu.jfif");
+        background-attachment: fixed;
+      }
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      ul {
+        list-style-type: none;
+        background-color: transparent;
+        overflow: hidden;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+      }
 
-    <!-- Bootsrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio | Fahmi Arifiansyah</title>
+      li:last-child {
+        border-right: none;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #2884cf;
+      }
+
+      section {
+        padding-top: 5rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: transparent;
+        color: white;
+      }
+    </style>
   </head>
-  <body id="home">
+  <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Fahmi Arifiansyah</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactme">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#tier">Tier</a></li>
+      <li><a href="#akun">My ML Account</a></li>
+    </ul>
     <!-- Akhir NavBar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/My Face.jpg" alt="Fahmi Arifiansyah" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Fahmi Arifiansyah</h1>
-      <p class="lead">Mahasiswa | D3 Teknik Komputer | Politeknik Harapan Bersama</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#41b3e7"
-          fill-opacity="1"
-          d="M0,224L20,202.7C40,181,80,139,120,144C160,149,200,203,240,224C280,245,320,235,360,202.7C400,171,440,117,480,117.3C520,117,560,171,600,181.3C640,192,680,160,720,170.7C760,181,800,235,840,240C880,245,920,203,960,181.3C1000,160,1040,160,1080,176C1120,192,1160,224,1200,224C1240,224,1280,192,1320,186.7C1360,181,1400,203,1420,213.3L1440,224L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
-        ></path>
-      </svg>
+    <!-- Home -->
+    <section id="home">
+      <h1 style="font-size: 60px; color: white" align="center">Mobile Legends : Bang Bang</h1>
+      <p style="font-size: 20px; color: white">
+        Mobile Legends adalah permainan MOBA yang dirancang untuk ponsel. Kedua tim masing-masing berisi lima orang berjuang untuk mencapai dan menghancurkan markas musuh sambil mempertahankan markas mereka sendiri untuk mengendalikan tiga
+        jalur, yang dikenal sebagai jalur "atas", "tengah" dan "bawah", yang menghubung ke setiap markas.
+      </p>
+      <p style="font-size: 20px; color: white">
+        Di masing-masing tim, ada lima pemain yang mengendalikan avatar sendiri-sendiri, yang dikenal sebagai "hero", dari perangkat mereka sendiri. Karakter lemah yang dikendalikan komputer disebut "minion", yang bersarang di markas tim
+        lalu menyebar ke tiga jalur dan melawan menara serta lawan yang menghadang. Mengumpulkan EXP berguna untuk menaikkan level hero saat permainan berlangsung.
+      </p>
+      <center>
+        <img src="image/playstore.png" width="200" alt="" />
+      </center>
+      <p align="center" style="font-size: 20px; color: white">
+        Kamu dapat mengunduhnya melalui playstore dengan klik saja <a href="https://play.google.com/store/apps/details?id=com.mobile.legends" style="color: white">Download Mobile Legends</a>
+      </p>
     </section>
-    <!-- Akhir Jumbotron -->
+    <!-- Akhir Home -->
 
-    <!-- About Me-->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-around fs-4 text-center">
-          <div class="col-md-4">
-            <p>My name is Fahmi Arifiansyah. I study at the Harapan Bersama Tegal Polytechnic, a D3 Computer Engineering study program.</p>
-          </div>
-          <div class="col-md-4">
-            <p>I am the eldest of two children. I was born in Tegal on November 1, 2003. My hobby is playing badminton.</p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="rgb(164, 185, 184)"
-          fill-opacity="1"
-          d="M0,224L20,202.7C40,181,80,139,120,144C160,149,200,203,240,224C280,245,320,235,360,202.7C400,171,440,117,480,117.3C520,117,560,171,600,181.3C640,192,680,160,720,170.7C760,181,800,235,840,240C880,245,920,203,960,181.3C1000,160,1040,160,1080,176C1120,192,1160,224,1200,224C1240,224,1280,192,1320,186.7C1360,181,1400,203,1420,213.3L1440,224L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
-        ></path>
-      </svg>
+    <!-- Tier -->
+    <section id="tier">
+      <h2 align="center" style="color: white; border: 5px solid white">Tier Mobile Legends</h2>
+      <center>
+        <img src="image/rank.png" width="500" align="center" alt="" />
+      </center>
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>1. WARRIOR</b></h3>
+      <p style="font-size: 20px; color: white">
+        Warrior adalah tingkatan Mobile Legends pertama yang ada di mode Ranked Match. Rank Warrior ML memiliki tingkatan mulai dari Warrior III hingga Warrior I dengan tiga bintang untuk naik ke rank berikutnya. Saat Mobile Legends rank
+        reset, kamu yang masih di Mobile Legends tier ini akan mendapatkan hadiah berupa 1x Fragment Skin Premium, 1000 Battle Point, dan 100 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>2. ELITE</b></h3>
+      <p style="font-size: 20px; color: white">
+        Setelah sukses menaikkan pangkat ML dari tier Warrior, kamu akan bermain di tingkatan Elite. Sama seperti sebelumnya, kamu akan mendapatkan tiga tingkatan mulai dari Elite III - Elite I. Kamu harus mengumpulkan 4 bintang untuk bisa
+        naik ke rank berikutnya. Nah, mulai rank ini jika kalah maka bintang kamu akan berkurang, geng. Setelah menyelesaikan season di urutan rank Elite Mobile Legend ini, kamu akan mendapatkan 3x Fragment Skin Premium, 2000 Battle Point,
+        dan 200 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>3. MASTER</b></h3>
+      <p style="font-size: 20px; color: white">
+        Kemudian pada rank Master mungkin kamu bakal kesulitan mendapatkan bintang karena rata-rata pertandingan bakal diikuti oleh pemain asli, bukan melawan bot seperti pada Warrior dan Elite. Urutan rank Master Mobile Legend sendiri
+        memiliki empat buah tingkatan, yakni Master IV - Master I dengan masing-masing 4 bintang di tiap tier-nya. Untuk kamu yang berhasil mencapai rank di Mobile Legends yang satu ini, kamu berhak mendapatkan Skin Eksklusif Season, 4000
+        Battle Point, dan 300 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>4. GRANDMASTER</b></h3>
+      <p style="font-size: 20px; color: white">
+        Pada rank Grandmaster kamu bakal menemui lima tingkatan mulai dari Grandmaster V - Grandmaster I. Bahkan, untuk bisa naik ke tier berikutnya, ada 5 bintang alias kemenangan yang harus kamu raih lebih dulu. Hadiah yang diberikan di
+        rank Grandmaster pun cukup menggiurkan, yakni Skin Eksklusif Season, 7000 Battle Point, dan 600 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>5. EPIC</b></h3>
+      <p style="font-size: 20px; color: white">
+        Mulai dari rank Epic, kamu akan memulai sistem Draft Pick di mana pilihan setiap hero akan diatur sebelum memulai pertandingan. Dengan sistem ini, kedua tim tidak akan memiliki hero yang sama dan bakal ada empat hero yang di-banned
+        dalam setiap pertandingannya, geng. Rank Epic terdiri dari lima buah tingkatan, yakni Epic V - Epic I dengan lima buah bintang pada tiap tier-nya. Pada akhir musim, kamu akan mendapatkan Skin Eksklusif Season, 12000 Battle Point,
+        dan 1000 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>6. LEGEND</b></h3>
+      <p style="font-size: 20px; color: white">
+        Rank Legend menempati urutan ketiga rank tertinggi di Mobile Legends. Di tier ML ini, kamu harus melewati Legend V - Legend I dengan lima bintang masing-masing. Karena sudah masuk tingkatan rank ML yang lebih profesional, musuh yang
+        kamu temui pun dijamin sudah jago. Di akhir season, ada hadiah yang bakal kamu dapat saat mencapai rank ini, yakni Skin Eksklusif Season, 20000 Battle Point, dan 1500 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>7. MYTHIC</b></h3>
+      <p style="font-size: 20px; color: white">
+        Pada tier ini, ada tingkatan yang harus kamu lewati, yakni Mythic V - Mythic I. Sistem penilaiannya pun bukan menggunakan bintang, melainkan poin bernama Mythic Point yang bakal bertambah dan berkurang tergantung menang atau
+        kalahnya kamu dalam pertandingan. Saat pertama kali kamu mencapai rank Mobile Legends ML ini pun, kamu bakal dihadapkan pada Placement Match yang terdiri dari 10 pertandingan untuk menentukan posisi kamu di rank Mythic. Nantinya,
+        saat bermain di mode rank, bukan nggak mungkin kamu akan sering bertemu dengan dengan pro player dengan nama squad keren yang sudah cukup populer. Pada akhir musim di rank Mobile Legends Mtyhic, kamu akan mendapatkan Skin Ekslusif
+        Season, Expression Mythic, 20000 Battle Point, dan 1500 Ticket.
+      </p>
+      <br />
+      <h3 style="font-size: 30px; color: rgb(0, 255, 234); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>8. MYTHICAL GLORY</b></h3>
+      <p style="font-size: 20px; color: white">
+        Terakhir, kamu juga bisa meningkatkan lagi menjadi Mythical Glory Mobile Legends yang kini bisa kamu dapatkan dengan mudah asal total Mythic Point kamu sudah mencapai 600 poin atau lebih. Biar makin keren, jangan lupa untuk
+        meningkatkan Win Rate hero ML! Jadi saat draft pick, kamu bisa pamer WR kamu pada teman satu tim. Kerennya lagi, kamu pun juga berkesempatan masuk ke dalam leaderboard asal punya jumlah Mythic Point lebih besar dari pesaingmu.
+      </p>
     </section>
-    <!-- Akhir About -->
+    <!-- Akhir Tier -->
 
-    <!-- Gallery -->
-    <section id="gallery">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col">
-            <h2>Gallery</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="UTS Pemrograman Web/FahmiPHB.jpg" class="card-img-top" alt="Foto 1" />
-              <div class="card-body">
-                <p class="card-text text-center">Potret ketika berada di lingkungan kampus.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="UTS Pemrograman Web/FahmiBadminton.jpg" class="card-img-top" alt="Foto 2" />
-              <div class="card-body">
-                <p class="card-text text-center">Potret ketika latihan rutin bulutangkis.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="UTS Pemrograman Web/FahmiLebaran.jpg" class="card-img-top" alt="Foto 3" />
-              <div class="card-body">
-                <p class="card-text text-center">Potret setelah melakukan shalat Idul Fitri.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="UTS Pemrograman Web/FahmiBubut.jpg" class="card-img-top" alt="Foto 4" />
-              <div class="card-body">
-                <p class="card-text text-center">Saat bekerja di bengkel bubut dengan mesin bubut import asal China.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="UTS Pemrograman Web/FahmiDrat.jpg" class="card-img-top" alt="Foto 5" />
-              <div class="card-body">
-                <p class="card-text text-center">Saat bekerja di bengkel bubut dengan mesin bubut lokal buatan Indonesia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#41b3e7"
-          fill-opacity="1"
-          d="M0,224L20,202.7C40,181,80,139,120,144C160,149,200,203,240,224C280,245,320,235,360,202.7C400,171,440,117,480,117.3C520,117,560,171,600,181.3C640,192,680,160,720,170.7C760,181,800,235,840,240C880,245,920,203,960,181.3C1000,160,1040,160,1080,176C1120,192,1160,224,1200,224C1240,224,1280,192,1320,186.7C1360,181,1400,203,1420,213.3L1440,224L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir Gallery -->
+    <!-- My Profile Account -->
+    <section id="akun">
+      <h2 align="center" style="color: white; border: 5px solid white">My Mobile Legends Account</h2>
+      <center>
+        <img src="image/Profil Mobile Legends.jpg" width="1000" align="center" alt="" />
+      </center>
 
-    <!-- Contact Me -->
-    <section id="contactme">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="Pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,224L20,202.7C40,181,80,139,120,144C160,149,200,203,240,224C280,245,320,235,360,202.7C400,171,440,117,480,117.3C520,117,560,171,600,181.3C640,192,680,160,720,170.7C760,181,800,235,840,240C880,245,920,203,960,181.3C1000,160,1040,160,1080,176C1120,192,1160,224,1200,224C1240,224,1280,192,1320,186.7C1360,181,1400,203,1420,213.3L1440,224L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
-        ></path>
-      </svg>
+      <h3 align="center" style="color: rgb(0, 255, 34); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><b>Nickname : Kang Bengkel Bubut</b></h3>
+      <h3 align="center" style="color: rgb(0, 255, 34); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><b>Hero Signature : Fanny, Selena, Gusion, Ling, Hayabusa, Lancelot.</b></h3>
+      <h3 align="center" style="color: rgb(0, 255, 34); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><b>Awal Main : Season 6</b></h3>
     </section>
-    <!-- Akhir Contact Me -->
+    <!-- Akhir My Profile Account -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created by <i class="bi bi-instagram"></i> <a href="https://www.instagram.com/fahmian_/" class="text-white fw-bold">Fahmi Arifiansyah</a></p>
+
+    <footer>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <b>Created by :</b><br />
+        <a href="https://www.instagram.com/fahmian_/" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Fahmi Arifiansyah</a>
+      </p>
     </footer>
     <!-- Akhir Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
